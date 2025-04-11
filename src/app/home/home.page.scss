@@ -1,0 +1,19 @@
+/* Contenedor principal */
+ion-content {
+  --background: #f1f3f5;     /* Fondo gris claro para toda la página */
+}
+
+ion-header{
+  text-align: center;
+}
+
+/* --- Fondo claro para los ion-item (inputs) --- */
+ion-item {
+  text-align: center;
+  --background: #f4f4f4; 
+  --ion-text-color: #000000; 
+  margin-bottom: 10px; 
+}
+
+
+

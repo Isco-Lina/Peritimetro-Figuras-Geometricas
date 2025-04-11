@@ -1,0 +1,74 @@
+/* Estilos base para todas las tarjetas */
+ion-card {
+  max-width: 500px;          /* Ancho máximo para evitar sobrexpansión */
+  margin: 1rem auto;         /* Centrado horizontal y margen superior */
+  border-radius: 12px;       /* Bordes redondeados */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  background: #ffffff;       /* Fondo blanco */
+}
+
+/* Encabezado de la tarjeta */
+ion-card-header {
+  background: #3880ff;  
+  border-radius: 12px 12px 0 0;    /* Bordes redondeados solo arriba */
+  padding: 1.5rem;
+  text-align: center;
+}
+
+/* Título de la tarjeta */
+ion-card-title {
+  color: #000000;
+  font-size: 1.4rem;         /* Tamaño de fuente aumentado */
+}
+
+/* Contenido de la tarjeta */
+ion-card-content {
+  padding: 1.5rem;           /* Espaciado interno */
+}
+
+/* Imagen dentro del card */
+ion-img {
+  width: auto;
+  margin: 0 auto 1rem auto;
+  }
+
+  /* --- Fondo claro para los ion-item (inputs) --- */
+  ion-item {
+    --background: #f4f4f4; 
+    --ion-text-color: #000000; 
+    margin-bottom: 10px; 
+    }
+  
+/* Etiquetas de los inputs */
+ion-label {
+  color: #6c757d; /* Gris oscuro para mejor contraste */
+  font-size: 0.9rem;
+}
+
+/* Inputs numéricos */
+ion-input {
+  --padding-start: 12px;     /* Espaciado interno izquierdo */
+  --color: #495057;          /* Color de texto oscuro */
+  font-size: 1rem;
+}
+
+/* Botón de cálculo */
+ion-button {
+  color: #ffffff;
+  --background: #3880ff;     
+  --border-radius: 8px;     
+  --padding: 1rem;           
+  font-weight: 600;          
+  margin-top: 1rem;          /* Separación del último input */
+  width: 100%;               /* Ocupar todo el ancho */
+}
+
+/* Resultado del perímetro */
+ion-text {
+  display: block;
+  text-align: center;
+  margin-top: 1.5rem;
+  font-size: 1.2rem;
+  color: #000000;         
+  font-weight: 500;
+}
