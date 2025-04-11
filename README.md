@@ -1,2 +1,2 @@
-# per-metro-figuras-geom-tricas
+# perimetro-figuras-geometricas
 aplicación híbrida utilizando Ionic Framework 
